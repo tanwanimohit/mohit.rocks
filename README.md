@@ -1,2 +1,3 @@
-# bio.link
-BIO Link RIP OFF
+# mohit.rocks
+
+A Website to manage social links.
