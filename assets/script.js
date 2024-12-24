@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const rssUrl = 'https://blog.mohittanwani.me/rss.xml'
+    const rssUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://blog.mohittanwani.me/rss.xml'); // Replace with your RSS feed URL
     const targetDiv = document.getElementsByClassName('retro-blog-list')[0];
 
     fetch(rssUrl)
@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                 `;
             }
-            console.log(content)
             targetDiv.innerHTML = content;  
         })
         .catch(error => console.error('Error fetching RSS feed:', error));
