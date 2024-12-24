@@ -6,6 +6,7 @@ body {
     --font-head: "Archivo Black", sans-serif;
     background-color: #f3f3f3;
     font-family: var(--font-head);
+    background-repeat: repeat;
     --font-sans: "Share Tech", sans-serif;
 }
 
@@ -16,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center ;
+    background-color: #f3f3f3;
 }
 
 .container-border{
@@ -25,6 +27,7 @@ body {
     box-shadow: 4px 4px #000;
     padding: 10px;
     margin: 10px;
+    background-color: #f3f3f3;
 }
 
 .container-border-colored{
