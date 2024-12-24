@@ -11,6 +11,7 @@
       name="description"
       content="Software Engineer - III at Hashedin By Deloitte"
     />
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,15 +29,27 @@
       content="Hello I am Mohit Tanwani, A software engineer from From India."
     />
     <meta name="robots" content="index, follow" />
-    <meta name="keywords" content="Mohit Tanwani, Software Engineer, Python, Java, microservices, API development, authentication, legacy code migration" />
+    <meta
+      name="keywords"
+      content="Mohit Tanwani, Software Engineer, Python, Java, microservices, API development, authentication, legacy code migration"
+    />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Mohit Tanwani" />
-    <meta property="og:image" content="https://mohit.rocks/assets/images/avatar.jpeg" />
+    <meta
+      property="og:image"
+      content="https://mohit.rocks/assets/images/avatar.jpeg"
+    />
     <meta property="og:site_name" content="Mohit Tanwani" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Mohit Tanwani" />
-    <meta name="twitter:description" content="Hello I am Mohit Tanwani, A software engineer from From India." />
-    <meta name="twitter:image" content="https://mohit.rocks/assets/images/avatar.jpeg" />
+    <meta
+      name="twitter:description"
+      content="Hello I am Mohit Tanwani, A software engineer from From India."
+    />
+    <meta
+      name="twitter:image"
+      content="https://mohit.rocks/assets/images/avatar.jpeg"
+    />
   </head>
   <body>
     <div class="container container-border">
@@ -55,9 +68,24 @@
       </p>
     </div>
     <div class="container-border">
-      <button class="retro-button">Resume</button>
-      <button class="retro-button">Portfolio</button>
-      <button class="retro-button">Github</button>
+      <button
+        class="retro-button"
+        onclick="window.open('https://tinyfor.me/mohitresume', '_blank')"
+      >
+        Resume
+      </button>
+      <button
+        class="retro-button"
+        onclick="window.open('https://mohittanwani.me/', '_blank')"
+      >
+        Portfolio
+      </button>
+      <button
+        class="retro-button"
+        onclick="window.open('https://github.com/tanwani-mohit', '_blank')"
+      >
+        Github
+      </button>
     </div>
     <div class="social-links container-border-colored">
       <a
@@ -87,8 +115,16 @@
     </div>
     <div class="container-border">
       <h2 class="retro-blog-heading">Recent blogs</h2>
-      <div class="retro-blog-list"></div>
+      <div class="retro-blog-list">Loading...</div>
     </div>
     <script src="./assets/script.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESPLYR7QQW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-ESPLYR7QQW');
+    </script>
   </body>
 </html>
