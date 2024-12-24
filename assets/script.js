@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const rssUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://blog.mohittanwani.me/rss.xml'); // Replace with your RSS feed URL
+    const rssUrl = 'https://blog.mohittanwani.me/rss.xml'
     const targetDiv = document.getElementsByClassName('retro-blog-list')[0];
 
     fetch(rssUrl)
